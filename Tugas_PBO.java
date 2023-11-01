@@ -151,5 +151,19 @@ public class Tugas_PBO {
         b = sc.nextInt();
         int f = ~a;
         System.out.println("Hasil operasi negasi: " + f);
+        //left shift
+         System.out.print("Masukkan nilai a: ");
+        a = sc.nextInt();
+        System.out.print("Masukkan nilai b: ");
+        b = sc.nextInt();
+        int g = a<<b;
+        System.out.println("Hasil operasi Left Shift:"+g) ;
+        //Right Shift
+         System.out.print("Masukkan nilai a: ");
+        a = sc.nextInt();
+        System.out.print("Masukkan nilai b: ");
+        b = sc.nextInt();
+        int h = a>>b;
+        System.out.println("Hasil operasi Right Shift:"+h) ;
     }
 }
